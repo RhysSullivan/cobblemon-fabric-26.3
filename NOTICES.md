@@ -2,7 +2,7 @@
 
 **Cobblemon** is by the Cobblemon Contributors (cable-mc): <https://cobblemon.com>, source
 <https://gitlab.com/cable-mc/cobblemon>. This is an **unofficial port** of Cobblemon to Minecraft 26.3 (Fabric),
-version `1.8.3+26.3-port.1`. It was **modified** from Cobblemon's source (branch `feature/version-bump-v2`, commit
+versions `1.8.3+26.3-port.<n>`. It was **modified** from Cobblemon's source (branch `feature/version-bump-v2`, commit
 c49a60a23a), and the changes are the port's commits on top of that. It is not made, endorsed or supported by the
 Cobblemon team. Please report problems with it at <https://github.com/RhysSullivan/cobblemon-fabric-26.3/issues>,
 not to them.
