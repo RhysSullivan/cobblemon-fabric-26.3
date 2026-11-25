@@ -21,6 +21,12 @@ below (`cobblemon-port/` inside the jar).
 - `assets/cobblemon/shaders/core/particle_base.vsh`, `particle_add.fsh`, `particle_cutout.fsh`: rewritten in the
   shader dialect Minecraft 26.3 requires; the effect is unchanged.
 - `assets/cobblemon/lang/en_us.json`: two entries added for the port.
+- From port.4: `data/cobblemon/structure/habitats/sunflowerbed_clearing5.nbt` and `parched_peat_bog7.nbt`: one
+  misspelt jigsaw block state each corrected (`minecraft:dirt_block` to `minecraft:dirt`, `minecraft:strucutre_void`
+  to `minecraft:structure_void`).
+- From port.4: `data/cobblemon/loot_table/shipwreck_coves/fishing_boats/fishing_boat.json`: the treasure map's item
+  is `minecraft:filled_map` instead of `minecraft:map` (Minecraft 26.3's `exploration_map` function fills in the item
+  it is given; on 1.21.1 it replaced it).
 
 Nested in the jar (`META-INF/jars/`, unmodified; licences read from each artifact's published POM):
 
